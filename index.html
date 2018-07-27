@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="resources/css/reset.css">
+  <link
+    href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900"
+    rel="stylesheet">
+  <link
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="resources/css/style.css">
+  <title>Match Game</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <h1>Match Game</h1>
+        <h2>Rules</h2>
+        <p>Click on a card to reveal the number on the other side. Click on a
+          second card to try and find a match to the first. If you succeed, the
+          pair will be removed from play. If not, try again!</p>
+          <h2>How To Win</h2>
+          <p>You win when all pairs have been found.</p>
+      </div>
+      <div class="col-md-9" id="game">
+        <div class="row container">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+<!-- Scripts -->
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./resources/js/match-game.js"></script>
+  <script type="text/javascript" src="./resources/js/tests.js"></script>
+</body>
+</html>
